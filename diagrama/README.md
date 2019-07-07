@@ -1,6 +1,7 @@
-# Diagrama electromecánico
+﻿# Diagrama electromecánico y de flujo
 
-Subir diagrama electromecánico realizado en [Fritzing](http://fritzing.org/home/)
+Esta carpeta contiene el diagrama electromecánico y el diagrama de flujo.
 
-Ej: [Hervidor realizado en EI3001 2018-2](https://github.com/cmesiasd/SmartKettle2.0)
-![Diagrama Ejemplo](/multimedia/esquema.png)
+El diagrama electromecánico está hecho en Fritzing (contiene imagen y archivo .fzz)
+
+
