@@ -1,8 +1,7 @@
 ﻿# Apache - 2019
-<Breve descripción del proyecto. Todo lo que esté entre llaves debe ser editado por ustedes>
-<Insertar una imagen del proyecto terminado, de vista general, como el que aparece abajo>
 
-![Robot Apache](/multimedia/apache.jpeg)
+
+![Robot Apache](/multimedia/apache_frente.jpeg)
 
 
 
