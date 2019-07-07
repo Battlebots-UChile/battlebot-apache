@@ -5,11 +5,11 @@ Código que permite **maniobrar** al robot según instrucciones enviadas desde l
 ### Observaciones
 - La libreria SoftwareSerial permite cambiar los pines de comunicación entre el Arduino y Bluetooth, evitando así quemar el módulo HC-06 y/o Arduino al transferir código a este último mientras se tiene el robot encendido
 - Gracias al puente H es posible asignar velocidades diferenciadas entre ambas ruedas, además de activar y desactivar un sentido de giro
-- Si se desea una trayectoria curva simulando ruedas direccionales, la rueda con menor velocidad será la que fije la dirección
-- Si se desea un giro en el mismo lugar, una rueda debe girar completamente en sentido horario mientras la otra lo hace de forma antihorario
-- Si se quiere un giro que describa un círculo, una rueda debe estar completamente quieta
+    - Si se desea una trayectoria curva simulando ruedas direccionales, la rueda con menor velocidad será la que fije la dirección
+    - Si se desea un giro en el mismo lugar, una rueda debe girar completamente en sentido horario mientras la otra lo hace de forma antihorario
+    - Si se quiere un giro que describa un círculo, una rueda debe estar completamente quieta
 
-```
+~~~
     #include <SoftwareSerial.h> // Librería que permite modificar los pines de comunciación de la placa Arduino
     #include<Servo.h> // Librería necesaria para hacer uso de las ruedas
 
@@ -137,4 +137,4 @@ Código que permite **maniobrar** al robot según instrucciones enviadas desde l
             Serial.println("Giro a la derecha");
         }
     } 
-```
+~~~
