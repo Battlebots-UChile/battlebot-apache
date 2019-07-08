@@ -14,7 +14,7 @@ Con su intimidante arma, Apache busca dejar inutilizable a los otros robots golp
 
 ## Descripción del proyecto
 ### Descripción morfológica
-La forma cuadrangular de nuestro robot se inspiró en la base de una pirámide cuadrada, con un centro de gravedad muy bajo para no perder la estabilidad, mientras que el arma fue basada en las aspas de un helicóptero (de ahí viene el nombre Apache)
+La forma cuadrangular de nuestro robot se inspiró en la base de una pirámide cuadrada, con un centro de gravedad muy bajo para no perder la estabilidad, mientras que el arma fue basada en las aspas de un helicóptero (de ahí viene el nombre Apache).  
 Además en su parte trasera posee una forma puntiaguda, especial para la defensa recibiendo impactos.
 
 ### Estrategia utilizada
@@ -25,8 +25,8 @@ Impactar la mayor cantidad de veces al robot enemigo usando la alta potencia del
 Aprovechar la resistencia del material estructural y forma puntiaguda, recibiendo golpes en la parte trasera de Apache neutralizando momentaneamente la ofensiva del robot contrincante y empleando los distintos movimientos/giros implementados.
 
 ### Movimiento del robot (Aplicación Android)
-**Para hacer uso de la aplicación es necesario emparejar previamente el módulo Bluetooth con un dispositivo con Sistema Operativo Android, luego se debe mantener activada la función Bluetooth del celular. Una vez hecho esto se debe presionar el botón "Conectar" situado en el extremo superior izquierdo de la App.**
-Buscando comodidad y facilidad de manejo la aplicación fue diseñada simulando un control de videojuegos, siendo el botón "A" para avanzar y el botón "B" para retroceder. Los botones con etiqueta "IZ" y "DER" realizan una curva (circulo con punto de giro fuera del robot) dando una dirección, mientras que los botones "X" e "Y" permiten girar en el mismo sitio en sentido antihorario y horario respectivamente (útil para movimientos sorpresa tanto en ataque como defensa).
+**Para hacer uso de la aplicación es necesario emparejar previamente el módulo Bluetooth con un dispositivo con Sistema Operativo Android, luego se debe mantener activada la función Bluetooth del celular. Una vez hecho esto se debe presionar el botón "Conectar" situado en el extremo superior izquierdo de la App.**  
+Buscando comodidad y facilidad de manejo la aplicación fue diseñada simulando un control de videojuegos, siendo el botón "A" para avanzar y el botón "B" para retroceder. Los botones con etiqueta "IZ" y "DER" realizan una curva (circulo con punto de giro fuera del robot) dando una dirección, mientras que los botones "X" e "Y" permiten girar en el mismo sitio en sentido antihorario y horario respectivamente (útil para movimientos sorpresa tanto en ataque como defensa).  
 Los botones restantes "QUE FOME", "IT'S OK", "A TODO GAS" y "ABORTEN" controlan el arma principal, ajustandola a velocidad mínima, media y máxima o parándolo en caso de ser necesario. Se recomienda utilizar las primeras dos velocidades.
 Ante cualquier emergencia es posible desactivar a Apache apagando la función Bluetooth del dispositivo móvil.
 
@@ -63,7 +63,7 @@ Ante cualquier emergencia es posible desactivar a Apache apagando la función Bl
 19. Cables Macho-Hembra Arduino (Opcional)
 20. Amarras plásticas (Opcional)
 21. Protectores termoencogibles (tamaño según cables) / Silicona (Opcional)
-
+  
 **Herramientas**
 1. Cortadora Láser / Sierra de mano (para cortar madera)
 2. Impresora 3D
@@ -75,8 +75,8 @@ Ante cualquier emergencia es posible desactivar a Apache apagando la función Bl
 8. Lija (Opcional)
 
 #### Construcción
-**Recordatorio: Aunque la barra de aluminio no genera riesgo por si misma, al ser acoplada al motor de Dron por obvias razones resulta ser potencialmente peligrosa, por lo que es de suma importancia seguir todos los pasos, además de guardar una debida distancia en todo momento**
-Nota: Se entenderá como el frente la parte donde se sitúa el arma.
+**Recordatorio: Aunque la barra de aluminio no genera riesgo por si misma, al ser acoplada al motor de Dron por obvias razones resulta ser potencialmente peligrosa, por lo que es de suma importancia seguir todos los pasos, además de guardar una debida distancia en todo momento**  
+Nota: Se entenderá como el frente la parte donde se sitúa el arma.  
 1. Cortar la base en madera según el [plano base](/planos/Plano_Base.pdf) usando una cortadora láser o dremel, junto con la [tapa](/planos/Plano_Tapa.pdf) en Alucobond usando las herramientas adecuadas.
 2. Perforar los orificios de los tornillos que sujetarán los componentes electronicos y amarras plásticas.
 3. Atornillar el motor de Dron a la [pieza triangular](/planos/pieza%20triangular.print) impresa cuidando que el cable del controlador vaya hacia arriba y los tornillos superiores de la pieza sean los más cortos (esto dejará espacio para la placa Arduino). Poner tuercas correspondientes con la mayor fuerza posible.
