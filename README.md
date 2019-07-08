@@ -26,7 +26,7 @@ Aprovechar la resistencia del material estructural y forma puntiaguda, recibiend
 
 ### Movimiento del robot (Aplicación Android)
 **Para hacer uso de la aplicación es necesario emparejar previamente el módulo Bluetooth con un dispositivo con Sistema Operativo Android, luego se debe mantener activada la función Bluetooth del celular. Una vez hecho esto se debe presionar el botón "Conectar" situado en el extremo superior izquierdo de la App.**  
-Buscando comodidad y facilidad de manejo la aplicación fue diseñada simulando un control de videojuegos, siendo el botón "A" para avanzar y el botón "B" para retroceder. Los botones con etiqueta "IZ" y "DER" realizan una curva (circulo con punto de giro fuera del robot) dando una dirección, mientras que los botones "X" e "Y" permiten girar en el mismo sitio en sentido antihorario y horario respectivamente (útil para movimientos sorpresa tanto en ataque como defensa).  
+Buscando comodidad y facilidad de manejo la aplicación fue diseñada simulando un control de videojuegos, siendo el botón "A" para avanzar y el botón "B" para retroceder. Los botones con etiqueta "IZ" y "DER" realizan una curva dando una dirección, mientras que los botones "X" e "Y" permiten girar en el mismo sitio en sentido antihorario y horario respectivamente (útil para movimientos sorpresa tanto en ataque como defensa).  
 Los botones restantes "QUE FOME", "IT'S OK", "A TODO GAS" y "ABORTEN" controlan el arma principal, ajustandola a velocidad mínima, media y máxima o parándolo en caso de ser necesario. Se recomienda utilizar las primeras dos velocidades.
 Ante cualquier emergencia es posible desactivar a Apache apagando la función Bluetooth del dispositivo móvil.
 
@@ -52,7 +52,7 @@ Ante cualquier emergencia es posible desactivar a Apache apagando la función Bl
 8. Módulo L298N Puente H con Jumper
 9. Módulo HC-06 Bluetooth
 10. Motor Dron + Controlador
-11. 3x Pila de 4V
+11. Pilas que sumen 12V
 12. Batería Li-Po Victory 11.1V 1300mah 15C 3 celdas
 13. 8x Cable de largo 10-15cm
 14. Soldadura
@@ -75,8 +75,8 @@ Ante cualquier emergencia es posible desactivar a Apache apagando la función Bl
 8. Lija (Opcional)
 
 #### Construcción
-**Recordatorio: Aunque la barra de aluminio no genera riesgo por si misma, al ser acoplada al motor de Dron por obvias razones resulta ser potencialmente peligrosa, por lo que es de suma importancia seguir todos los pasos, además de guardar una debida distancia en todo momento**  
-Nota: Se entenderá como el frente la parte donde se sitúa el arma.  
+**Recordatorio: Aunque la barra de aluminio no genera riesgo por si misma, al ser acoplada al motor de Dron por obvias razones resulta ser potencialmente peligrosa, por lo que es de suma importancia seguir cada uno de los pasos, sujetar bien los componentes y guardar una debida distancia en todo momento**  
+Nota: Se entenderá como el frente la parte donde se sitúa el arma. Se recomienda imprimir con tiempo las piezas 3D ya que el proveso es lento.
 1. Cortar la base en madera según el [plano base](/planos/Plano_Base.pdf) usando una cortadora láser o dremel, junto con la [tapa](/planos/Plano_Tapa.pdf) en Alucobond usando las herramientas adecuadas.
 2. Perforar los orificios de los tornillos que sujetarán los componentes electronicos y amarras plásticas.
 3. Atornillar el motor de Dron a la [pieza triangular](/planos/pieza%20triangular.print) impresa cuidando que el cable del controlador vaya hacia arriba y los tornillos superiores de la pieza sean los más cortos (esto dejará espacio para la placa Arduino). Poner tuercas correspondientes con la mayor fuerza posible.
@@ -88,7 +88,7 @@ Nota: Se entenderá como el frente la parte donde se sitúa el arma.
 9. Pegar las ruedas eléctricas encajándolas en los cortes hechos previamente (orientando su caja hacia adentro), luego sujetarlas con las amarras. 
 10. Fijar con tornillos la Placa Arduino en la base de madera orientando la entrada de corriente hacia el frente del robot (facilita conectar los cables de los módulos al arduino).
 11. [Poner un Jumper en el Puente H](https://youtu.be/c0L4gNKwjRw?t=70) en caso de no tenerlo (esto habilitará la entrada de 12V y salida de 5V). Fijar con tornillos el módulo en la base de madera, orientando la entrada de cables hacia abajo (lugar más amplio, facilitando la conexión con las ruedas).
-12. Fijar con tornillos el portapilas. Se debe cubrir con una tapa de algun material sobrante y/o amarras plásticas.
+12. Fijar con tornillos el portapilas. Las pilas se deben cubrir con una tapa de algun material sobrante y/o amarras plásticas.
 Retirando parcialmente los tornillos de los pines del puente H (atornillandolos tras cada instrucción), y siguiendo el [esquema](/diagrama/esquema_apache.jpg):
 13. Conectar los cables de la rueda A: uno en Out1 y otro en Out2 del Puente H. Hacer lo mismo con los cables de la rueda B en Out3 y Out4.
 14. Conectar desde el Puente H al Arduino:
@@ -115,7 +115,7 @@ Retirando parcialmente los tornillos de los pines del puente H (atornillandolos 
 - RXD -> Pin 5~
 18. Colocar rueda "loca" en la parte de atrás debajo de la base, teniendo cuidado con los cables.
 19. Fijar las barras de aluminio en los lados del robot sobre la plancha de madera. 
-20. Tapar con la pieza de Alucobond y cortar sección tal que el arma quede a la vista. Fijar con tornillos.
+20. Tapar con la pieza de Alucobond y cortar sección tal que el arma quede a la vista. Limar bordes y fijar con tornillos.
 
 #### Problemas y soluciones
 - P: Una rueda se mueve en un solo sentido. S: Prueba conectando los pines ENA/ENB en otros pines PMW ~, puede que estén dañados. Si no funciona, mueve las entradas del puente H.
