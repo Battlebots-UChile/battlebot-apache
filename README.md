@@ -28,9 +28,14 @@ Buscando comodidad y facilidad de manejo la aplicación fue diseñada simulando 
 Los botones restantes "MIN", "MED", "MAX" y "PARAR" controlan el arma principal, ajustandola a velocidad mínima, media y máxima o parándolo en caso de ser necesario. Se recomienda utilizar las primeras dos velocidades.
 Ante cualquier emergencia es posible desactivar a Apache apagando la función Bluetooth del dispositivo móvil.
 
+![App](/codigos/APK/App.jpeg)
 
 ### Diagrama funcional
-<Diagrama general de funcionamiento. Se sugiere un esquema de sistemas, completo.>
+
+![Diagrama 1](/diagrama/DF1.png)
+![Diagrama 2](/diagrama/DF2.png)
+![Diagrama 3](/diagrama/DF3.png)
+
 
 ### Paso a Paso
 #### Materiales y Herramientas necesarias
