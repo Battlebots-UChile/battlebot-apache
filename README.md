@@ -14,6 +14,11 @@
 
 ## Descripción del proyecto
 ### Descripción morfológica
+Nuestro robot tiene la forma de un helicoptero (de ahí viene el nombre de Apache), con un centro de gravedad muy bajo para no perder la estabilidad.
+
+En su parte delantera tiene las "aspas" que es nuestra arma letal.
+
+Además en su parte trasera posee una forma puntiaguda, especial para la defensa recibiendo impactos.
 
 ### Estrategia utilizada
 #### Ofensiva
