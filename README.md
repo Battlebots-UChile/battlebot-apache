@@ -76,13 +76,13 @@ Ante cualquier emergencia es posible desactivar a Apache apagando la función Bl
 
 #### Construcción
 **Recordatorio: Aunque la barra de aluminio no genera riesgo por si misma, al ser acoplada al motor de Dron por obvias razones resulta ser potencialmente peligrosa, por lo que es de suma importancia seguir cada uno de los pasos, sujetar bien los componentes y guardar una debida distancia en todo momento**  
-Nota: Se entenderá como el frente la parte donde se sitúa el arma. Se recomienda imprimir con tiempo las piezas 3D ya que el proveso es lento.
+Nota: Se entenderá como el frente la parte donde se sitúa el arma. Se recomienda imprimir con tiempo las piezas 3D ya que el proceso es lento.
 1. Cortar la base en madera según el [plano base](/planos/Plano_Base.pdf) usando una cortadora láser o dremel, junto con la [tapa](/planos/Plano_Tapa.pdf) en Alucobond usando las herramientas adecuadas.
 2. Perforar los orificios de los tornillos que sujetarán los componentes electronicos y amarras plásticas.
 3. Atornillar el motor de Dron a la [pieza triangular](/planos/pieza%20triangular.print) impresa cuidando que el cable del controlador vaya hacia arriba y los tornillos superiores de la pieza sean los más cortos (esto dejará espacio para la placa Arduino). Poner tuercas correspondientes con la mayor fuerza posible.
 4. Atornillar la pieza triangular impresa con la base de madera a una distancia de 5cm del frente, luego sujetar con dos perfiles de aluminio (uno a cada lado).
 5. Perforar dos agujeros en la barra de aluminio de 27x3x1,5cm siguiendo los orificios de la [pieza circular](/planos/pieza%20circular.print). Atornillar ambos y fijar con las tuercas.
-6. Unir a presión el arma con el motor de Dron. Apretar con un tornillo y tuerca la pieza circular junto al motor.
+6. Unir a presión el arma con el motor de Dron. Apretar con un tornillo y tuerca la pieza circular junto al motor. En caso de que el arma toque el suelo al girar, limar extremos.
 7. Poner soldadura en los extremos de los cables.
 8. Soldar un cable en cada polo de la placa de cada rueda y una vez seco cubrir con silicona o un protector termoencogible (esto aislará los extremos preveniendo un corte y quemar algún componente). 
 9. Pegar las ruedas eléctricas encajándolas en los cortes hechos previamente (orientando su caja hacia adentro), luego sujetarlas con las amarras. 
@@ -114,8 +114,8 @@ Retirando parcialmente los tornillos de los pines del puente H (atornillandolos 
 - TXD -> Pin 6~
 - RXD -> Pin 5~
 18. Colocar rueda "loca" en la parte de atrás debajo de la base, teniendo cuidado con los cables.
-19. Fijar las barras de aluminio en los lados del robot sobre la plancha de madera. 
-20. Tapar con la pieza de Alucobond y cortar sección tal que el arma quede a la vista. Limar bordes y fijar con tornillos.
+19. Fijar las barras de aluminio en los lados del robot sobre la plancha de madera.
+20. Tapar con la pieza de alucobond y cortar una sección tal que el arma quede a la vista. Limar bordes y fijar con tornillos.
 
 #### Problemas y soluciones
 - P: Una rueda se mueve en un solo sentido. S: Prueba conectando los pines ENA/ENB en otros pines PMW ~, puede que estén dañados. Si no funciona, mueve las entradas del puente H.
