@@ -62,8 +62,8 @@ Ante cualquier emergencia es posible desactivar a Apache apagando la función Bl
 17. Pegamento industrial
 18. Tornillos con tuerca
 19. Portapilas
-20. Alarma Li-Po (Opcional)
-21. Cables Macho-Hembra Arduino (Opcional)
+20. Cables Macho-Hembra Arduino
+21. Alarma Li-Po (Opcional) 
 22. Amarras plásticas (Opcional)
 23. Protectores termoencogibles (tamaño según cables) / Silicona (Opcional)
   
