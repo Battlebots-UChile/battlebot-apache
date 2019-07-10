@@ -94,7 +94,7 @@ Nota: Se entenderá como el frente la parte donde se sitúa el arma. Se recomien
 9. Pegar las ruedas eléctricas encajándolas en los cortes hechos previamente (orientando su caja hacia adentro), luego sujetarlas con las amarras. 
 10. Fijar con tornillos la Placa Arduino en la base de madera orientando la entrada de corriente hacia el frente del robot (facilita conectar los cables de los módulos al arduino).
 11. [Poner un Jumper en el Puente H](https://youtu.be/c0L4gNKwjRw?t=70) en caso de no tenerlo (esto habilitará la entrada de 12V y salida de 5V). Fijar con tornillos el módulo en la base de madera, orientando la entrada de cables hacia abajo (lugar más amplio, facilitando la conexión con las ruedas).
-12. Fijar con tornillos el portapilas. Las pilas se deben cubrir con una tapa de algun material sobrante y/o amarras plásticas.
+12. Fijar con tornillos el portapilas. Las pilas se deben cubrir con una tapa de algun material sobrante y/o amarras plásticas.  
 Retirando parcialmente los tornillos de los pines del puente H (atornillandolos tras cada instrucción), y siguiendo el [esquema](/diagrama/esquema_apache.jpg):
 13. Conectar los cables de la rueda A: uno en Out1 y otro en Out2 del Puente H. Hacer lo mismo con los cables de la rueda B en Out3 y Out4.
 14. Conectar desde el Puente H al Arduino:
