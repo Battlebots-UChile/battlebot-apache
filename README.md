@@ -85,8 +85,8 @@ Ante cualquier emergencia es posible desactivar a Apache apagando la función Bl
 Nota: Se entenderá como el frente la parte donde se sitúa el arma. Se recomienda imprimir con tiempo las piezas 3D ya que el proceso es lento.
 1. Cortar la base en madera según el [plano base](/planos/Plano_Base.pdf) usando una cortadora láser o dremel, junto con la [tapa](/planos/Plano_Tapa.pdf) en Alucobond usando las herramientas adecuadas.
 2. Atornillar el motor de Dron a la pieza triangular impresa cuidando que el cable del controlador vaya hacia arriba y los tornillos superiores de la pieza sean los más cortos (esto dejará espacio para la placa Arduino). Poner tuercas correspondientes con la mayor fuerza posible.
-3. Atornillar la pieza triangular impresa con la base de madera a una distancia de 3cm del frente, luego sujetar con dos perfiles de aluminio (uno a cada lado).
-4. Perforar dos agujeros en la barra de aluminio de 27x3x1,5cm siguiendo los [orificios de la pieza circular](/multimedia/pieza-circular.png) y hacer cortes rectagulares en la base cilíndrica(evitará que el motor se caliente)
+3. Atornillar la pieza triangular impresa con la base de madera en el frente, luego sujetar con dos perfiles de aluminio (uno a cada lado).
+4. Perforar dos agujeros en la barra de aluminio de 27x3x1,5cm siguiendo los [orificios de la pieza circular](/multimedia/pieza-circular.png) y hacer dos orificios simetricos a los lados en la pieza 3D (dónde irán un par de tornillos) junto con algunos cortes rectagulares en la base cilíndrica(evitará que el motor se caliente)
 5. Con 2 tornillos [unir ambos](/multimedia/arma-ensamblada.jpeg) y fijar con las tuercas.
 6. Unir a presión el arma con el motor de Dron encajando el orificio del centro de la pieza circular con el eje del motor. Apretarlo con tres tornillos (uno arriba con tuerca y dos a los lados). En caso de que el arma toque el suelo al girar, limar extremos.
 7. Poner soldadura en los extremos de los cables.
@@ -120,7 +120,7 @@ Se recomienda desenchufar luego de cada pelea debido a las características de l
 - GND -> GND
 - TXD -> Pin 6~
 - RXD -> Pin 5~
-19. Colocar rueda "loca" unos 5cm de la parte de atrás, teniendo cuidado con los cables.
+19. Colocar rueda "loca" centrada unos 4cm de la parte de atrás, teniendo cuidado con los cables.
 20. Perforar las barras de 2,5x5x19cm por un lado para pasar los cables del motor de dron en una y el interruptor en la otra barra.
 21. Fijar las barras de aluminio en los lados del robot sobre la plancha de madera.
 22. Tapar con la pieza de alucobond y cortar una sección tal que el arma quede a la vista. Limar bordes y fijar con tornillos.
@@ -132,12 +132,13 @@ Se recomienda desenchufar luego de cada pelea debido a las características de l
 - P: No se mueve ninguna rueda. S: Quemaste el puente H suministrando 12V en la salida de 5V, consigue uno nuevo.
 - P: Apesar de sólo querer avanzar, el robot se desvía a uno de los lados. S: Posiblemente las ruedas quedaron desalineadas por desgaste o al pegarlas mal, prueba avanzando en intervalos.
 - P: Al golpear a otro robot Apache se desmayó. S: Las pilas quedaron sueltas, agrega más contención.
+- P: El arma se tambalea al hacerla girar. S: Los tornillos laterales no pesan lo mismo o la pieza circular se rompió; reemplázalos.
 
 #### Proyecciones a futuro
 - Mejorar la ventilación del motor de Dron rediseñando la pieza circular.
-- Cubrir los componentes electronicos del interior para protegerlos.
+- Cubrir los componentes electrónicos del interior para protegerlos.
 - Agregar sensores de tensión para que cuando el arma se detenga por golpear a otro robot, Apache pueda manejar la situación (girando en su eje dando un tiempo para que el arma vuelva a girar, por ejemplo).
-- Probar con distintos materiales para la base, aumentando capas en caso de necesitar más peso (esto para evitar que con un ataque nuestro, el mismo robot salte).
+- Probar con distintos materiales para la base, aumentando capas en caso de necesitar más peso (esto para evitar que con un ataque nuestro el robot salte).
 
 
 ## Licencia
