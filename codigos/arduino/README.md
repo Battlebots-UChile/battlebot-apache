@@ -10,3 +10,4 @@ Código que permite **maniobrar** al robot según instrucciones enviadas desde l
     - Si se desea una trayectoria curva simulando ruedas direccionales, la rueda con menor velocidad será la que fije la dirección
     - Si se desea un giro en el mismo lugar, una rueda debe girar completamente en sentido horario mientras la otra lo hace de forma antihorario
     - Si se quiere un giro que describa un círculo, una rueda debe estar completamente quieta
+- Tras diversas pruebas recomendamos disminuir la velocidad de giro de las ruedas para un mejor agarre de estas en superficies no porosas.
