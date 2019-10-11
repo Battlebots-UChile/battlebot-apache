@@ -131,7 +131,7 @@ Se recomienda desenchufar luego de cada pelea debido a las características de l
 - P: No se mueve una rueda. S: Es posible que el puente H tenga sus pines desgastados, prueba moviendo sus entradas o cambiando esos cables.
 - P: No se mueve ninguna rueda. S: Quemaste el puente H suministrando 12V en la salida de 5V, consigue uno nuevo.
 - P: Apesar de sólo querer avanzar, el robot se desvía a uno de los lados. S: Posiblemente las ruedas quedaron desalineadas por desgaste o al pegarlas mal, prueba avanzando en intervalos.
-- P: Al golpear a otro robot Apache se desmayó. S: Las pilas quedaron sueltas, agrega más contención.
+- P: Al golpear a otro robot Apache se desmayó. S: Las pilas quedaron sueltas, agrega más contención. Recomendamos *desactivar* el arma antes de golpear al contrincante, esto para no sobrecargar el motor y evitar el apagón.
 - P: El arma se tambalea al hacerla girar. S: Los tornillos laterales no pesan lo mismo o la pieza circular se rompió; reemplázalos.
 
 #### Proyecciones a futuro
